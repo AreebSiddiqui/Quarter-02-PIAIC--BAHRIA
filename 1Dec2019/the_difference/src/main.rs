@@ -32,13 +32,13 @@
 
 
 
-//     fn main () {
-//         println!("{}",add(9.8,9.0,'m'));
-//     }
+    fn main () {
+        println!("{}",add(9.8,9,'+'));
+    }
 
-//     //Into is a trait, into is the method in Into trait.
+    //Into is a trait, into is the method in Into trait.
 
-//     fn add <T,U> (x:T, y:U,c: char) -> f64
+    fn add <T,U> (x:T, y:U,c: char) -> f64
 //     where T: Into<f64>,
 //           U: Into<f64>
 //     {   match c {
@@ -54,7 +54,7 @@
 
 //     }
         
-//     }
+//  }
 
 
 
